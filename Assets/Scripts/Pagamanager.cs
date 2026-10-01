@@ -5,7 +5,12 @@ public class Pagamanager : MonoBehaviour
     public GameObject moodPage;
     public GameObject questPage;
     public GameObject journalPage;
-    
+
+
+    public void Start()
+    {
+        ShowMoodPage();
+    }
     public void ShowMoodPage()
     {
         moodPage.SetActive(true);
